@@ -17,7 +17,7 @@
 
 本次KDDCup的任务要求从历史数据以及实时的API中预测未来48小时空气质量。该任务涉及到实时处理，且数据量较大，偏工程。我们搭建了如下pipeline来解决这个问题。
 
-![](model.png)
+![模型图](https://raw.githubusercontent.com/hzhwcmhf/kddcup18_teamsolid/master/img/model.png)
 
 我们首先对整个流水线进行简介，之后对每一个部分进行详细介绍。
 
@@ -191,7 +191,7 @@
 
 ### 筛选过程
 
-![](feature_selection.png)
+![筛选过程图](https://raw.githubusercontent.com/hzhwcmhf/kddcup18_teamsolid/master/img/feature_selection.png)
 
 #### step0 筛去存在极端值的样本
 
@@ -281,7 +281,7 @@
 
 我们的结果与第1名、第100名的变化曲线如下。
 
-![](result.png)
+![结果图](https://raw.githubusercontent.com/hzhwcmhf/kddcup18_teamsolid/master/img/result.png)
 
 
 ## 总结
